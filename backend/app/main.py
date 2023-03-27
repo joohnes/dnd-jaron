@@ -1,6 +1,6 @@
 from api.routers import api_router
-from db.base import Base
-from db.session import engine
+# from db.base import Base
+# from db.session import engine
 from fastapi import APIRouter
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
